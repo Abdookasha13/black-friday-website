@@ -1,0 +1,131 @@
+.loading {
+  width: 100%;
+  text-align: center;
+  padding-top: 22%;
+  min-height: 100vh;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+}
+
+.loading::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.custom-loader {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 16px solid;
+  margin: auto;
+  border-color: var(--defaltColor) #0000;
+  animation: s1 1s infinite;
+  z-index: 2;
+  position: relative;
+}
+@keyframes s1 {
+  to {
+    transform: rotate(0.5turn);
+  }
+}
+
+/* ===========================filtter================= */
+
+.btns-filtter button {
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #2e2e2e;
+  border: none;
+  color: #9faaaa;
+  cursor: pointer;
+}
+
+.btns-filtter button.active-btn {
+  background-color: var(--defaltColor);
+  color: #fff;
+}
+
+.btns-filtter {
+  width: fit-content;
+  margin: 20px auto 0;
+}
+
+/* ===========================end-filtter================= */
+
+.section-broducts {
+  width: 100%;
+  background-color: black;
+  padding-top: 1rem;
+  min-height: 100vh;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 38px;
+  width: 80%;
+  margin: auto;
+  padding-block: 40px;
+}
+
+.product-card {
+  position: relative;
+  width: 380px;
+}
+
+.product-card img {
+  width: 100%;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.product-card h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.product-card .old-price {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 5px;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #333;
+  padding: 7px 12px;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.btncart {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: var(--defaltColor);
+  border: none;
+  cursor: pointer;
+}
+
+.btncart:hover {
+  opacity: 0.7;
+}
+
+#cart-count {
+  background-color: beige;
+  border-radius: 45%;
+  border: 0;
+  color: black;
+  font-size: 20px;
+}

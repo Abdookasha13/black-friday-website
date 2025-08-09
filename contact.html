@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="ok.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="skin1.css" />
+    <link rel="stylesheet" href="skin2.css" disabled />
+    <link rel="stylesheet" href="skin3.css" disabled />
+    <link rel="stylesheet" href="./cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="./images/tab.png" />
+  </head>
+  <body>
+    <header class="overlay">
+      <!-- ================nav================= -->
+      <div class="nav">
+        <div class="BFCM"><span>B</span>FCM</div>
+        <!-- ================nav-links================= -->
+        <div class="nav-links">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- ================end-nav-links================= -->
+        <!-- ================cart-and-user================= -->
+        <div class="cart-and-user">
+          <!-- ================nav-cart================= -->
+          <div class="parent-of-num-cart">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <span class="num-product-in-cart">0</span>
+          </div>
+          <!-- ================end-nav-cart================= -->
+          <!-- ================usr-ifo================= -->
+          <div class="usr-ifo">
+            <div class="usr-img">
+              <img src="" alt="" id="usr-img" />
+            </div>
+            <div class="usr-name"></div>
+          </div>
+          <!-- ================end-usr-ifo================= -->
+        </div>
+        <!-- ================end-cart-and-user================= -->
+      </div>
+      <!-- ================end-nav================= -->
+      <h1>Contact</h1>
+    </header>
+
+    <!-- ------------------------------------------------ fisrt section -------------------------------------------------- -->
+
+    <section class="contact-section overlay">
+      <div class="contact-container">
+        <div class="contact-left">
+          <h2>Get in Touch</h2>
+          <p>
+            Have questions or need assistance? Get in touch with our friendly
+            and responsive customer support team.
+          </p>
+          <hr class="dash" />
+          <div class="info-block">
+            <h4>PHONE</h4>
+            <p><strong>555-1234-678</strong></p>
+          </div>
+          <div class="info-block">
+            <h4>EMAIL</h4>
+            <p><strong>abc@gmail.com</strong></p>
+          </div>
+          <div class="info-block">
+            <h4>ADDRESS</h4>
+            <p><strong>13 Fifth Avenue, New York, NY 101660</strong></p>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <div id="formContainer">
+            <form id="contactForm" class="contact-form">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+              ></textarea>
+              <button type="submit">SEND</button>
+            </form>
+          </div>
+          <div id="successMessage" style="display: none">
+            Thanks for contacting us! We will be in touch with you shortly.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================section6================= -->
+    <div class="footer overlay">
+      <!-- ================footer-content================= -->
+      <div class="footer-content">
+        <div class="line"></div>
+        <h2>Don’t Miss Out – Shop Black Friday Deals Now!</h2>
+        <p>
+          Unlock exclusive savings before time runs out. Your biggest discounts
+          are just a click away!
+        </p>
+        <div class="shop-now"><a href="#" class="btn">SHOP NOW</a></div>
+      </div>
+      <!-- ================end-footer-content================= -->
+      <!-- ================footer-footer================= -->
+      <div class="footer-footer">
+        <div class="footer-footer-content">
+          <!-- ================footer-icons================= -->
+          <div class="footer-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <!-- ================end-footer-icons================= -->
+          <div class="copyright">Copyright © 2025 Black Friday</div>
+        </div>
+      </div>
+      <!-- ================footer-footer================= -->
+    </div>
+    <!-- ================end-section6================= -->
+
+    <!-- ==========================btn-scroll========== -->
+    <a href="#"
+      ><button class="btn" title="Back to Top" id="btn-scroll">↑</button></a
+    >
+    <!-- ==========================end-btn-scroll========== -->
+
+    <!-- ==========================btn-customize========== -->
+    <div class="btn-customize">
+      <i class="fa-solid fa-palette"></i>customize
+    </div>
+    <!-- ==========================btn-colors========== -->
+    <div class="btn-colors">
+      Try Other Colors
+      <div>
+        <span class="defalt-color"></span>
+      </div>
+      <div>
+        <span class="second-color"></span>
+      </div>
+      <div>
+        <span class="third-color"></span>
+      </div>
+    </div>
+    <!-- ==========================end-btn-colors========== -->
+    <!-- ==========================end-btn-customize========== -->
+
+    <!-- ==========================Shopping-Cart========== -->
+    <div class="shopping-cart">
+      <div class="cart">
+        <div class="close">
+          <div>Shopping Cart</div>
+          <i class="fa-solid fa-xmark close-cart"></i>
+        </div>
+        <div class="shopping-cart-content">
+          <div id="cart-container"></div>
+        </div>
+        <div class="subtotal">
+          <div class="subtotal1"></div>
+        </div>
+        <div class="btns-shopping-cart">
+          <button onclick="location.href='./shop.html'">SHOP NOW</button>
+          <button onclick="location.href='./reg.html'">CHECKOUT</button>
+        </div>
+      </div>
+      <div class="empty"></div>
+    </div>
+    <!-- ==========================end-Shopping-Cart========== -->
+
+    <!-- ==========================usr-data========== -->
+    <div class="usr-data">
+      <div class="usr-data-container">
+        <div class="close">
+          <div>User Data</div>
+          <i class="fa-solid fa-xmark close-usr-data"></i>
+        </div>
+        <div class="usr-data-content">
+          <h2 class="usr-name"></h2>
+          <img src="" alt="" id="usr-data-img" />
+        </div>
+        <div class="btns-usr-data">
+          <button class="log-out">
+            LOG OUT <i class="fa-solid fa-right-from-bracket"></i>
+          </button>
+        </div>
+      </div>
+      <div class="empty-usr-data"></div>
+    </div>
+    <!-- ==========================end-usr-data========== -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById("contactForm");
+        const formContainer = document.getElementById("formContainer");
+        const successMessage = document.getElementById("successMessage");
+
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const name = form.querySelector('input[type="text"]');
+          const email = form.querySelector('input[type="email"]');
+          const message = form.querySelector("textarea");
+
+          if (name.value.trim() && email.value.trim() && message.value.trim()) {
+            formContainer.style.display = "none";
+            successMessage.style.display = "block";
+          } else {
+            alert("Please fill out all fields.");
+          }
+        });
+      });
+    </script>
+    <script src="shop.js"></script>
+
+    <script src="./script.js"></script>
+
+    <!-- <script src="okok.js"></script> -->
+  </body>
+</html>

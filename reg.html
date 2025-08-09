@@ -1,0 +1,118 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Register/Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="ok.css" />
+    <link rel="icon" type="image/png" href="./images/tab.png" />
+  </head>
+  <body class="auth-page">
+    <div class="container login-register-page">
+      <div class="image-slider">
+        <div
+          class="slide active"
+          style="background-image: url('./images/loll 1.jpg')"
+        ></div>
+        <div
+          class="slide"
+          style="background-image: url('./images/loll 2.jpg')"
+        ></div>
+        <div
+          class="slide"
+          style="background-image: url('./images/loll 3.jpg')"
+        ></div>
+        <div
+          class="slide"
+          style="background-image: url('./images/loll 4.jpg')"
+        ></div>
+        <div
+          class="slide"
+          style="background-image: url('./images/loll 5.jpg')"
+        ></div>
+        <div
+          class="slide"
+          style="background-image: url('./images/loll 6.jpg')"
+        ></div>
+        <div
+          class="slide"
+          style="background-image: url('./images/loll\ 7.jpg')"
+        ></div>
+        <a href="index.html" class="back-btn">Back to website →</a>
+      </div>
+
+      <div class="form-area">
+        <div class="form-wrapper">
+          <!-- Register Form -->
+          <form class="form-panel active" id="registerForm">
+            <h2>Create Account</h2>
+            <div id="registerError" class="form-error"></div>
+            <div class="form-group">
+              <input type="text" id="fullName" placeholder="Full Name" />
+              <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+              <input type="text" id="regUsername" placeholder="Username" />
+              <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+              <input type="email" id="regEmail" placeholder="Email" />
+              <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+              <input type="password" id="regPassword" placeholder="Password" />
+              <small class="error-message"></small>
+            </div>
+
+            <div class="form-group image-upload">
+              <img id="preview" />
+              <input type="file" id="photo" accept="image/*" />
+              <button
+                type="button"
+                class="upload-btn"
+                onclick="document.getElementById('photo').click();"
+              >
+                Upload Photo
+              </button>
+            </div>
+
+            <button type="submit" class="btnn">Register</button>
+            <p class="toggle-text">
+              Already have an account?
+              <span onclick="switchForm('login')">Login</span>
+            </p>
+          </form>
+
+          <!-- Login Form -->
+          <form class="form-panel" id="loginForm">
+            <h2>Login</h2>
+            <div class="form-error" id="loginError"></div>
+
+            <div class="form-group">
+              <input
+                type="text"
+                id="loginUser"
+                placeholder="Email or Username"
+              />
+              <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+              <input type="password" id="loginPass" placeholder="Password" />
+              <small class="error-message"></small>
+            </div>
+            <button type="submit" class="btnn">Login</button>
+            <p class="toggle-text">
+              Don't have an account?
+              <span onclick="switchForm('register')">Register</span>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="okok.js"></script>
+  </body>
+</html>

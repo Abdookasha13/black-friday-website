@@ -1,0 +1,129 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Apex Essentials Men’s Skincare Set",
+      "price": 150,
+       "discount":10,
+      "details": "Featuring a powerful trio of products – a revitalizing facial cleanser, a hydrating moisturizer, and an anti-fatigue eye serum – this set is formulated to tackle the unique needs of men’s skin. Crafted with soothing aloe, vitamin C, and hyaluronic acid, Apex Essentials works to deeply cleanse, combat signs of aging, and lock in moisture for a healthy, energized complexion.",
+      "description": "Elevate your skincare routine with the Apex Essentials Men’s Skincare Set, a complete collection designed to cleanse, hydrate, and protect your skin with ease. Featuring a powerful trio of products – a revitalizing facial cleanser, a hydrating moisturizer, and an anti-fatigue eye serum – this set is formulated to tackle the unique needs of men’s skin. Crafted with soothing aloe, vitamin C, and hyaluronic acid, Apex Essentials works to deeply cleanse, combat signs of aging, and lock in moisture for a healthy, energized complexion. The lightweight, non-greasy formulas absorb quickly, leaving your skin feeling fresh and balanced all day long. Whether you’re preparing for a long day at the office or recovering from an intense workout, this set delivers everything you need to keep your skin looking sharp, clear, and youthful. Apex Essentials: simple, effective skincare for the modern man who values both performance and simplicity.",
+      "featured_image": "images/product1-feature.jpg",
+      "images": [
+        "images/product1-1.jpg",
+        "images/product1-2.jpg"
+      ],
+      "reviews": [
+        {
+          "user": "Ahmed",
+          "rating": 5,
+          "comment": "Excellent product! It helped me organize my time perfectly."
+        }
+      ],
+      "category": "Men"
+    },
+    {
+     "id": 2,
+      "name": "Chronos Vanguard Watch",
+      "price": 200,
+      "discount":20,
+      "details": "Powered by a high-performance automatic movement, the Chronos Vanguard ensures flawless accuracy, making it as reliable as it is stylish. The bold yet sleek design, with its minimalist dial and refined metal bracelet, seamlessly transitions from boardroom to weekend adventure. Whether you’re in a business meeting or exploring the outdoors, this watch complements your every move, delivering unparalleled quality and performance for the modern man who demands excellence.",
+      "description": "Embrace precision and style with the Chronos Vanguard Men’s Watch a masterpiece of modern craftsmanship and timeless design. Engineered with durable stainless steel, a scratch-resistant sapphire crystal, and water resistance up to 100 meters, this watch combines rugged durability with sophisticated elegance. Powered by a high-performance automatic movement, the Chronos Vanguard ensures flawless accuracy, making it as reliable as it is stylish. The bold yet sleek design, with its minimalist dial and refined metal bracelet, seamlessly transitions from boardroom to weekend adventure. Whether you’re in a business meeting or exploring the outdoors, this watch complements your every move, delivering unparalleled quality and performance for the modern man who demands excellence.",
+      "featured_image": "images/product2-feature.jpg",
+      "images": [
+        "images/product2-1.jpg",
+        "images/product2-2.jpg"
+      ],
+      "reviews": [
+        {
+        "user": "Kamal",
+         "rating": 4,
+        "comment": "Excellent product!."
+        }
+      ],
+      "category": "Men"
+    },
+    {
+      "id": 3,
+      "name": "Florielle Silk Hand Lotion",
+      "price": 75,
+      "discount":35,
+      "details": "Enriched with shea butter, almond oil, and vitamin E, this deeply moisturizing lotion absorbs quickly, leaving your hands feeling smooth, hydrated, and beautifully radiant. Florielle Silk is perfect for daily use, providing long-lasting hydration that shields your skin from dryness and environmental stressors. With its light, non-greasy texture and a delicate floral fragrance, Florielle Silk Hand Lotion pampers your senses while rejuvenating your skin.",
+      "description": "Experience silky, soft hands with Florielle Silk Hand Lotion, a luxurious formula designed to nourish and protect your skin. Enriched with shea butter, almond oil, and vitamin E, this deeply moisturizing lotion absorbs quickly, leaving your hands feeling smooth, hydrated, and beautifully radiant. Florielle Silk is perfect for daily use, providing long-lasting hydration that shields your skin from dryness and environmental stressors. With its light, non-greasy texture and a delicate floral fragrance, Florielle Silk Hand Lotion pampers your senses while rejuvenating your skin. Whether you’re at home or on-the-go, this lotion keeps your hands looking and feeling their best, giving you the softness and care you deserve, every time you apply.",
+      "featured_image": "images/product3-feature.jpg",
+      "images": [
+        "images/product3-1.jpg",
+        "images/product3-2.jpg"
+      ],
+      "reviews": [
+        {
+         "user": "Sara",
+         "rating": 5,
+        "comment": "what wish I used."
+        }
+      ],
+      "category": "Women"
+    },
+    {
+          "id": 4,
+      "name": "Luminara Face Cream",
+      "price": 130,
+      "discount":40,
+      "details": "Unlock the secret to glowing, youthful skin with Luminara Radiance Face Cream. Formulated with a luxurious blend of natural botanicals, hyaluronic acid, and vitamins, this lightweight yet deeply hydrating cream works to nourish and rejuvenate your skin from within. It provides long-lasting moisture, helping to smooth fine lines and improve elasticity, while promoting a radiant, even complexion.",
+      "description": "Unlock the secret to glowing, youthful skin with Luminara Radiance Face Cream. Formulated with a luxurious blend of natural botanicals, hyaluronic acid, and vitamins, this lightweight yet deeply hydrating cream works to nourish and rejuvenate your skin from within. It provides long-lasting moisture, helping to smooth fine lines and improve elasticity, while promoting a radiant, even complexion.",
+      "featured_image": "images/product4-feature.jpg",
+      "images": [
+        "images/product4-1.jpg",
+        "images/product4-2.jpg"
+      ],
+      "reviews": [{
+         "user": "Gamila",
+         "rating": 5,
+        "comment": "what wish I used."
+      }
+      ],
+      "category": "Women"
+    },
+    {
+       "id": 5,
+      "name": "Serafina Glow Women’s Skincare Set",
+      "price": 300,
+      "discount":15,
+      "details": "Together, these products work harmoniously to cleanse, hydrate, and brighten your complexion, leaving your skin feeling refreshed, smooth, and glowing. Formulated with hyaluronic acid, rosehip oil, and vitamin E, the Serafina Glow set helps restore moisture, improve skin elasticity, and protect against environmental stressors. Whether you’re starting your day or unwinding at night, this set provides everything you need for a complete skincare ritual that enhances your skin’s natural beauty.",
+     "description": "Pamper your skin with the Serafina Glow Skincare Set, a luxurious collection designed to reveal your skin’s natural radiance. This indulgent set includes a gentle cleanser, a revitalizing toner, and a nourishing day cream, each enriched with potent botanical extracts, antioxidants, and vitamins. Together, these products work harmoniously to cleanse, hydrate, and brighten your complexion, leaving your skin feeling refreshed, smooth, and glowing. Formulated with hyaluronic acid, rosehip oil, and vitamin E, the Serafina Glow set helps restore moisture, improve skin elasticity, and protect against environmental stressors. Whether you’re starting your day or unwinding at night, this set provides everything you need for a complete skincare ritual that enhances your skin’s natural beauty. Treat yourself to the ultimate in self-care and experience the glow of healthy, luminous skin every day with Serafina Glow.",
+      "featured_image": "images/product5-feature.jpg",
+      "images": [
+        "images/product5-1.jpg",
+        "images/product5-2.jpg"
+      ],
+      "reviews": [
+        {
+         "user": "Hager",
+         "rating": 5,
+        "comment": "very good set safe your money with high quality."
+        }
+      ],
+      "category": "Women"
+    },
+    {
+      "id": 6,
+      "name": "Silvara Revive Restorative Hair Mask",
+      "price": 90,
+      "discount":25,
+      "details": "Ideal for dry, brittle, or color-treated hair, Silvara Revive leaves your locks feeling softer, smoother, and more manageable after just one use. The rich, creamy formula also helps tame frizz, enhance shine, and protect against future damage, making it the perfect weekly ritual for long-lasting hair health and beauty. Whether you’re recovering from heat styling or environmental stress, Silvara Revive delivers the hydration and strength your hair craves for a truly revitalized, radiant look.",
+      "description": "Transform your hair with the nourishing power of Silvara Revive Restorative Hair Mask, a deep-conditioning treatment designed to repair and rejuvenate even the most damaged strands. Infused with rich ingredients like argan oil, keratin, and biotin, this luxurious mask penetrates deeply to restore moisture, strengthen hair, and reduce breakage. Ideal for dry, brittle, or color-treated hair, Silvara Revive leaves your locks feeling softer, smoother, and more manageable after just one use. The rich, creamy formula also helps tame frizz, enhance shine, and protect against future damage, making it the perfect weekly ritual for long-lasting hair health and beauty. Whether you’re recovering from heat styling or environmental stress, Silvara Revive delivers the hydration and strength your hair craves for a truly revitalized, radiant look.",
+      "featured_image": "images/product6-feature.jpg",
+      "images": [
+        "images/product6-1.jpg",
+        "images/product6-2.jpg"
+      ],
+      "reviews": [
+          {
+         "user": "Salah",
+         "rating": 5,
+        "comment": "Recommended."
+        }
+      ],
+      "category": "Men"
+    }
+  ]
+}

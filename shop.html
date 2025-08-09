@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shop</title>
+    <link rel="stylesheet" href="./shop.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="skin1.css" />
+    <link rel="stylesheet" href="skin2.css" disabled />
+    <link rel="stylesheet" href="skin3.css" disabled />
+    <link rel="stylesheet" href="ok.css" />
+    <link rel="stylesheet" href="./cart.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="./images/tab.png" />
+  </head>
+  <body>
+    <div class="loading">
+      <div class="custom-loader"></div>
+    </div>
+
+    <div class="body-shop">
+      <header class="overlay">
+        <!-- ================nav================= -->
+        <div class="nav">
+          <div class="BFCM"><span>B</span>FCM</div>
+          <!-- ================nav-links================= -->
+          <div class="nav-links">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./shop.html">Shop</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <!-- ================end-nav-links================= -->
+          <!-- ================cart-and-user================= -->
+          <div class="cart-and-user">
+            <!-- ================nav-cart================= -->
+            <div class="parent-of-num-cart">
+              <i class="fa-solid fa-basket-shopping"></i>
+              <span class="num-product-in-cart">0</span>
+            </div>
+            <!-- ================end-nav-cart================= -->
+            <!-- ================usr-ifo================= -->
+            <div class="usr-ifo">
+              <div class="usr-img">
+                <img src="" alt="" id="usr-img" />
+              </div>
+              <div class="usr-name"></div>
+            </div>
+            <!-- ================end-usr-ifo================= -->
+          </div>
+          <!-- ================end-cart-and-user================= -->
+        </div>
+        <!-- ================end-nav================= -->
+        <!-- ======= HEADER TITLE ======= -->
+        <h1>SHOP</h1>
+      </header>
+
+      <div class="section-broducts">
+        <!-- =================search=============== -->
+        <div class="search-container">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            placeholder="Search here..."
+            oninput="search(event.target)"
+          />
+        </div>
+        <!-- =================end-search=============== -->
+        <!-- =====================filtter==================== -->
+        <div class="btns-filtter">
+          <button class="All">All</button>
+          <button class="Mens">Men</button>
+          <button class="Womans">Womans</button>
+        </div>
+        <!-- =====================end-filtter==================== -->
+        <div id="products-container" class="products-grid"></div>
+      </div>
+
+      <!-- ==========================btn-scroll========== -->
+      <a href="#"
+        ><button class="btn" title="Back to Top" id="btn-scroll">↑</button></a
+      >
+      <!-- ==========================end-btn-scroll========== -->
+
+      <!-- ==========================btn-customize========== -->
+      <div class="btn-customize">
+        <i class="fa-solid fa-palette"></i>customize
+      </div>
+      <!-- ==========================btn-colors========== -->
+      <div class="btn-colors">
+        Try Other Colors
+        <div>
+          <span class="defalt-color"></span>
+        </div>
+        <div>
+          <span class="second-color"></span>
+        </div>
+        <div>
+          <span class="third-color"></span>
+        </div>
+      </div>
+      <!-- ==========================end-btn-colors========== -->
+      <!-- ==========================end-btn-customize========== -->
+
+      <!-- ==========================Shopping-Cart========== -->
+      <div class="shopping-cart">
+        <div class="cart">
+          <div class="close">
+            <div>Shopping Cart</div>
+            <i class="fa-solid fa-xmark close-cart"></i>
+          </div>
+          <div class="shopping-cart-content">
+            <div id="cart-container"></div>
+          </div>
+          <div class="subtotal">
+            <div class="subtotal1"></div>
+          </div>
+          <div class="btns-shopping-cart">
+            <button onclick="location.href='./shop.html'">SHOP NOW</button>
+            <button onclick="location.href='./reg.html'">CHECKOUT</button>
+          </div>
+        </div>
+        <div class="empty"></div>
+      </div>
+      <!-- ==========================end-Shopping-Cart========== -->
+
+      <!-- ==========================usr-data========== -->
+      <div class="usr-data">
+        <div class="usr-data-container">
+          <div class="close">
+            <div>User Data</div>
+            <i class="fa-solid fa-xmark close-usr-data"></i>
+          </div>
+          <div class="usr-data-content">
+            <h2 class="usr-name"></h2>
+            <img src="" alt="" id="usr-data-img" />
+          </div>
+          <div class="btns-usr-data">
+            <button class="log-out">
+              LOG OUT <i class="fa-solid fa-right-from-bracket"></i>
+            </button>
+          </div>
+        </div>
+        <div class="empty-usr-data"></div>
+      </div>
+      <!-- ==========================end-usr-data========== -->
+    </div>
+
+    <script src="shop.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
